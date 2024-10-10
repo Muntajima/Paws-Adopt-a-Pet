@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/73b7ab6380.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        .font-lato {
+            font-family: "Lato", sans-serif;
+        }
+    </style>
+
+</head>
+
+<body class="font-lato">
+    <header>
+        <div class="w-9/12 mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <img class="" src="https://img.icons8.com/?size=48&id=SH3Ezx5XVsUe&format=png" alt="">
+                  <a class="btn btn-ghost text-3xl font-extrabold">PaWs</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden lg:block">
+                        <i class="fa-regular fa-circle-user fa-2x"></i>
+                    </div>
+                    <div class="lg:hidden md:hidden">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M4 6h16M4 12h16M4 18h7" />
+                              </svg>
+                            </div>
+                            <ul
+                              tabindex="0"
+                              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                              <li><a>Home</a></li>
+                              <li><a>Shop</a></li>
+                              <li><a>Contact</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                    </div>
+                    
+                </div>
+              </div>
+
+              <!--Banner-->
+              <div>
+                <div class="text-center mt-12">
+                    <h4 class="text-gray-500 text-xl pb-8 w-6/12 mx-auto">Bringing Families Together ❤️‍🔥 </h4>
+                    <h1 class="font-extrabold text-4xl w-6/12 mx-auto text-black lg:text-6xl">Your Path to Adoption <br>Starts Here</h1>
+                    <p class="text-sm pt-8 w-3/6 mx-auto">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                    <button class="btn btn-error mt-8"><a href="#adoptBestFriend">View More</a></button>
+                </div>
+                <div>
+                    <img class="w-2/5 mx-auto mt-8" src="./asset/pet.webp" alt="">
+                </div>
+              </div>
+        </div>
+    </header>
+        <main class="w-9/12 mx-auto">
+            <section id="adoptBestFriend">
+                <div class="text-center mt-24">
+                    <h3 class="font-extrabold text-4xl w-6/12 mx-auto">Adopt  Your  Best Friend</h3>
+                    <p class="text-sm pt-8 w-3/6 mx-auto mb-12">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+                </div>
+            </section>
+                <!--Buttons for all pets-->
+                <section id="categories-container" class="lg:flex lg:justify-between lg:gap-4 grid grid-cols-1 w-6/12 mx-auto">
+            </section>
+            <div class="flex justify-between mx-12">
+                <p class="font-extrabold text-xl">Best Deal For you</p>
+                <button class="btn btn-error text-white">Sort by Price</button>
+            </div>
+
+            <section class="flex gap-2 flex-cols-1 lg:flex-cols-2">
+                <div id="all-pets-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    
+                </div>
+                <div class="border-solid border-2">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum neque atque temporibus reprehenderit? Cum fugiat excepturi esse a, aliquid nobis expedita </p>
+                </div>
+            </section>
+            
+        </main>
+
+        <img src="" alt="">
+
+        <script src="js/index.js"></script>
+</body
+</html>
